@@ -1,0 +1,86 @@
+
+@font-face {
+    font-family: 'Chivo-Black';
+    src: url('../fonts/Chivo-Black.eot?#iefix') format('embedded-opentype'),  url('../fonts/Chivo-Black.woff') format('woff'), url('../fonts/Chivo-Black.ttf')  format('truetype'), url('../fonts/Chivo-Black.svg#Chivo-BlackItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Chivo-Bold';
+    src: url('../fonts/Chivo-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/Chivo-Bold.woff') format('woff'), url('../fonts/Chivo-Bold.ttf')  format('truetype'), url('../fonts/Chivo-Black.svg#Chivo-BlackItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Chivo-Medium';
+    src: url('../fonts/Chivo-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/Chivo-Medium.woff') format('woff'), url('../fonts/Chivo-Medium.ttf')  format('truetype'), url('../fonts/Chivo-Black.svg#Chivo-BlackItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Chivo-Light';
+    src: url('../fonts/Chivo-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/Chivo-Light.woff') format('woff'), url('../fonts/Chivo-Light.ttf')  format('truetype'), url('../fonts/Chivo-Black.svg#Chivo-BlackItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Chivo-Thin';
+    src: url('../fonts/Chivo-Thin.eot?#iefix') format('embedded-opentype'),  url('../fonts/Chivo-Thin.woff') format('woff'), url('../fonts/Chivo-Thin.ttf')  format('truetype'), url('../fonts/Chivo-Black.svg#Chivo-BlackItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Chivo-Regular';
+    src: url('../fonts/Chivo-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/Chivo-Regular.woff') format('woff'), url('../fonts/Chivo-Regular.ttf')  format('truetype'), url('../fonts/Chivo-Regular.svg#Chivo-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sailec-Black';
+    src: url('../fonts/Sailec-Black.eot?#iefix') format('embedded-opentype'),  url('../fonts/Sailec-Black.woff') format('woff'), url('../fonts/Sailec-Black.ttf')  format('truetype'), url('../fonts/Sailec-Black.svg#Sailec-BlackItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sailec-Bold';
+    src: url('../fonts/Sailec-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/Sailec-Bold.woff') format('woff'), url('../fonts/Sailec-Bold.ttf')  format('truetype'), url('../fonts/Sailec-Black.svg#Sailec-BlackItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sailec-Medium';
+    src: url('../fonts/Sailec-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/Sailec-Medium.woff') format('woff'), url('../fonts/Sailec-Medium.ttf')  format('truetype'), url('../fonts/Sailec-Black.svg#Sailec-BlackItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sailec-Light';
+    src: url('../fonts/Sailec-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/Sailec-Light.woff') format('woff'), url('../fonts/Sailec-Light.ttf')  format('truetype'), url('../fonts/Sailec-Black.svg#Sailec-BlackItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sailec-Thin';
+    src: url('../fonts/Sailec-Thin.eot?#iefix') format('embedded-opentype'),  url('../fonts/Sailec-Thin.woff') format('woff'), url('../fonts/Sailec-Thin.ttf')  format('truetype'), url('../fonts/Sailec-Black.svg#Sailec-BlackItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sailec';
+    src: url('../fonts/Sailec.eot?#iefix') format('embedded-opentype'),  url('../fonts/Sailec.woff') format('woff'), url('../fonts/Sailec.ttf')  format('truetype'), url('../fonts/Sailec.svg#Sailec') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sailec-BlackItalic';
+    src: url('../fonts/Sailec-BlackItalic.eot?#iefix') format('embedded-opentype'),  url('../fonts/Sailec-BlackItalic.woff') format('woff'), url('../fonts/Sailec-BlackItalic.ttf')  format('truetype'), url('../fonts/Sailec-BlackItalic.svg#Sailec-BlackItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+    @font-face {
+    font-family: 'BebasNeueBold';
+    src: url('../fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),  url('../fonts/BebasNeueBold.woff') format('woff'), url('../fonts/BebasNeueBold.ttf')  format('truetype'), url('../fonts/BebasNeueBold.svg#BebasNeueBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

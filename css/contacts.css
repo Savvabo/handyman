@@ -1,0 +1,110 @@
+body {
+    overflow-x: hidden;
+    position: relative;
+    height: 100vh;
+}
+main {
+    margin: 0 16vw;
+}
+.top-wrapper {
+    position: relative;
+    top: 126px;
+    margin-bottom: 165px;
+    text-align: center;
+}
+.question-wrapper {
+    position: relative;
+    background-color: #ecedf4;
+    margin: 18px 0;
+    cursor: pointer;
+}
+.question-text {
+    color: black;
+    font-size: 18px;
+    font-family: 'Sailec';
+    line-height: 70px;
+    margin: 0 30px;
+}
+.answer {
+    display: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Sailec';
+    line-height: 30px;
+    padding: 10px 30px 40px;
+}
+.mail-subscribe-wrapper {
+    margin: -8vh 0 0;
+    position: relative;
+    top: 7vh;
+}
+
+.response-wrapper {
+    margin: 25vh 0 7.5vh;
+    position: relative;
+    bottom: 2vh;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #1630c4;
+    position: absolute;
+}
+.footer-wrapper {
+    margin: 21vh 16vw 0;
+}
+.footer-left-wrapper {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 32px;
+}
+.footer-right-wrapper {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 32px;
+}
+.footer-left-wrapper div,
+.footer-right-wrapper div {
+    display: flex;
+    justify-items: center;
+}
+.footer-right-wrapper div:last-of-type {
+    margin-right: 0;
+}
+.footer-logo {
+    color: white;
+    font-size: 18px;
+    font-family: 'Sailec-Black';
+}
+.footer-sub-text {
+    opacity: .5;
+    color: white;
+    font-size: 15px;
+    font-family: 'Sailec';
+    margin: 0 56px 0 17px;
+}
+
+
+@media screen and (min-width: 1920px) and (max-width: 1920px) {
+    body {
+        height: 75vh;
+    }
+    .response-wrapper {
+        bottom: 6vh;
+    }
+    .mail-subscribe-wrapper{
+        margin: -8vh 0 0;
+        top: 1vh;
+    }
+}

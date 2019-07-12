@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/fontawesome5-5-0.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/support.css">
+    <title>Contacts</title>
+</head>
+<body>
+<header>
+    <div class="logo text-uppercase"><a href="index.html">Handyman</a></div>
+    <div id="navbarTop" class="header-navbar text-uppercase">
+        <a href="index.html#appDescription" class="navbar-item">About app</a>
+        <a href="index.html#features" class="navbar-item">Features</a>
+        <a href="index.html#workFlow" class="navbar-item">How it works</a>
+        <a href="support.html" class="navbar-item">Support</a>
+        <a href="blog.html" class="navbar-item">Blog</a>
+        <a href="contacts.html" class="navbar-item active">Contacts</a>
+    </div>
+</header>
+<main>
+
+    <div class="response-wrapper">
+        <div class="message-wrapper">
+            <div class="contacts-text-wrapper">
+                Send us a message
+            </div>
+
+            <div class="input-block input-block-name">
+                <label onclick="showInput();" class="contact-label" id="labelName" for="name">Name and surname</label>
+                <input onclick="showLabel();" class="contact-input" type="text" id="name" tabindex="1"
+                       placeholder="Name and surname" required>
+            </div>
+            <div class="input-block input-block-company">
+                <label onclick="showInput();" class="contact-label" id="labelCompany" for="company">Company</label>
+                <input onclick="showLabel();" class="contact-input" type="text" id="company" tabindex="1"
+                       placeholder="Company" required>
+            </div>
+            <div class="input-block input-block-phone">
+                <label onclick="showInput();" class="contact-label" id="labelPhone" for="phone">Phone</label>
+                <input onclick="showLabel();" class="contact-input" type="tel" id="phone" tabindex="1"
+                       placeholder="Phone" required>
+            </div>
+            <div class="input-block input-block-message">
+                <label onclick="showInput();" class="contact-label" id="labelMessage" for="message">Message</label>
+                <input onclick="showLabel();" class="contact-input" type="text" id="message" tabindex="1"
+                       placeholder="Message" required>
+                <div class="plane-icon">
+                    <img src="images/plane-icon.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="contact-info-wrapper">
+            <div class="contact-info-title">Contact info</div>
+            <div class="contact-info-sub-title"><i class="fas fa-map-marker-alt"></i>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+            </div>
+            <div class="contact-info-sub-title"><i class="far fa-envelope"></i>info@handyman.com</div>
+            <div class="contact-info-sub-title"><i class="fas fa-phone"></i>+90536 53 56 5142</div>
+
+        </div>
+    </div>
+    <div class="mail-subscribe-wrapper">
+        <div class="mail-block">
+            <div class="subscribe-title text-uppercase">Subscribe</div>
+            <div class="sub-wrapper">
+                <div class="subscribe-sub-title">Get the latest news and blog posts to help you manage your jobs in
+                    the best way.
+                </div>
+                <form action="" method="">
+                    <input type="email" placeholder="Enter you email address" required>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="footer-wrapper">
+        <div class="footer-left-wrapper">
+            <div class="footer-logo text-uppercase">Handyman</div>
+            <div class="footer-sub-text">2019. All rights reserved</div>
+        </div>
+        <div class="footer-right-wrapper">
+            <div class="footer-sub-text">Terms and conditions</div>
+            <div class="footer-sub-text">Legal terms</div>
+
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-3-4-1.js"></script>
+<script src="js/page-scroll.js"></script>
+<script src="js/expanding-description.js"></script>
+</body>
+</html>
